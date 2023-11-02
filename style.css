@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body {
+    background-color: rgb(52, 55, 88);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.fileExtension,
+.filename {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-bottom: 25px;
+
+}
+
+.fileExtension .filed-input,
+.filename .filed-input {
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    margin-top: 10px;
+}
+
+.filed-input::placeholder {
+    color: white;
+}
+
+.fileExtension i,
+.filename i {
+    position: absolute;
+    left: 270px;
+    top: 7px;
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.check-box-main {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#vehicle1 {
+    border-radius: 5px;
+    border: none;
+}
+
+#login-btn {
+    padding: 10px 20px 10px 20px;
+    width: 250px;
+    color: white;
+    font-size: 17px;
+    background-color: palevioletred;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.main-registeruser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 140px;
+}
+
+.main-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-head {
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-weight: 1000;
+
+}
+
+.goto-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+.main-div {
+    background-color: #ffffff1f;
+    padding: 70px;
+    margin-top: 50px;
+    /* width: 450px; */
+    margin-bottom: 150px;
+    border-radius: 5px;
+}
+
+.main-desgine {
+    background: rgba(213, 89, 244, 0.726);
+background: linear-gradient(137deg, rgba(213, 89, 244, 0.767) 22%, rgba(0, 29, 144, 0.836) 54%, rgba(0, 167, 251, 0.651) 82%);
+    filter: blur(5px);
+    -webkit-filter: blur(10px) ;
+    padding: 280px;
+    border-radius: 36% 64% 40% 76% / 60% 65% 40% 40%  ;
+    rotate:-100deg;
+}
+.main-color{
+    margin-top:-630px;
+    margin-left: 400px;
+    z-index:-100;
+    
+}
