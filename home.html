@@ -1,18 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Start Blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+
+<body class="main-page">
     <div class="main">
-        <button type="button" class="btn">Log Out</button>
-        
-        <h1> Bloger</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident animi inventore consequuntur velit minus iste accusantium architecto ab earum, consectetur fugiat alias molestias quae aspernatur sed eum eius? Adipisci, harum.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea non porro illo! Laboriosam omnis dicta totam. Doloremque neque commodi aperiam provident? Quibusdam in doloribus mollitia dignissimos, perspiciatis accusantium tempora voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae ducimus ipsa eius pariatur totam veritatis voluptatum? Impedit reprehenderit voluptatem vitae? Unde ut itaque doloribus error similique aperiam praesentium, soluta tempora.
-        </p>
+        <!-- nav bar start -->
+        <div class="nav-main">
+            <div class="head">Social App</div>
+            <div class="logout">
+                <button type="button" class="btn">Log Out</button>
+            </div>
+        </div>
+        <!-- nav bar end -->
+        <!-- form Start -->
+        <div class="main-form">
+            <form id="form">
+                <label>Title :</label>
+                <input type="text" placeholder="Title" id="title">
+                <br>
+                <br>
+                <br>
+                <label>Description :</label>
+                <input type="text" placeholder="Description" id="description"> 
+                <div class="post-btn">
+                    <input type="submit" value="Post" id="post">
+                </div>
+            </form>
+        </div>
+        <!-- form end -->
+        <div id="card">
+
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- font-awesom -->
@@ -20,4 +44,6 @@
     <!-- font-awesom -->
     <script type="module" src="home.js.js"></script>
 </body>
+
 </html>
+

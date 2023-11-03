@@ -10,7 +10,6 @@ body {
     background-color: rgb(52, 55, 88);
     font-family: 'Quicksand', sans-serif;
 }
-
 .fileExtension,
 .filename {
     position: relative;
@@ -117,16 +116,122 @@ body {
 
 .main-desgine {
     background: rgba(213, 89, 244, 0.726);
-background: linear-gradient(137deg, rgba(213, 89, 244, 0.767) 22%, rgba(0, 29, 144, 0.836) 54%, rgba(0, 167, 251, 0.651) 82%);
+    background: linear-gradient(137deg, rgba(213, 89, 244, 0.767) 22%, rgba(0, 29, 144, 0.836) 54%, rgba(0, 167, 251, 0.651) 82%);
     filter: blur(5px);
-    -webkit-filter: blur(10px) ;
+    -webkit-filter: blur(10px);
     padding: 280px;
-    border-radius: 36% 64% 40% 76% / 60% 65% 40% 40%  ;
-    rotate:-100deg;
+    border-radius: 36% 64% 40% 76% / 60% 65% 40% 40%;
+    rotate: -100deg;
 }
-.main-color{
-    margin-top:-630px;
+
+.main-color {
+    margin-top: -630px;
     margin-left: 400px;
-    z-index:-100;
-    
+    z-index: -100;
+
+}.nav-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-bottom: 1px solid rgb(88, 88, 88);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.head{
+    font-size: 30px;
+    font-weight:700;
+    color: white;
+}
+.btn{
+    padding: 10px 20px 10px 20px;
+    background: rgba(213, 89, 244, 0.726);
+    background: linear-gradient(137deg, rgba(213, 89, 244, 0.767) 22%, rgba(7, 35, 146, 0.836) 54%, rgba(41, 40, 40, 0.651) 82%);
+    filter: blur(5px);
+    -webkit-filter: blur();
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: rgb(85, 179, 255);
+    color: rgb(255, 255, 255);
+}
+#title{
+    margin-left:65px;
+}
+.post-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+#post{
+    padding: 10px 20px 10px 20px;
+    background: transparent;
+    border: 1px solid gray;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+#post:hover{
+    background-color: rgb(197, 53, 53);
+    cursor: pointer;
+}
+.main-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 19px;
+    font-weight: 600;
+}
+#title,#description{
+    width: 500px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    background: local;
+    border: 1px solid rgb(187, 187, 187);
+    outline:none;
+    border-radius: 20px;
+    color: white;
+}
+.h4{
+    font-size: 20px;
+    font-weight: 600;
+    font-style: oblique;
+}
+.card{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 100px;
+    border: 1px solid gray;
+
+}
+.card-body{
+    /* background-color: rgba(0, 0, 0, 0.342); */
+    color: aliceblue;
+    padding: 50px;
+}
+.main-t{
+    font-size: 20px;
+    font-weight: 600;
+    color: aquamarine;
+    margin-left: 70px;
+}
+.main-d{
+    font-size: 20px;
+    font-weight: 600;
+    color: aquamarine;
+    margin-left: 10px;
+}
+
+p{
+    line-height: 2;
 }
